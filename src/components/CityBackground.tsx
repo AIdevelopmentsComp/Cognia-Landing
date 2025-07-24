@@ -70,7 +70,7 @@ const CityBackground: React.FC = () => {
       {/* Ground */}
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.001, 0]} receiveShadow>
         <planeGeometry args={[60, 60]} />
-        <meshPhongMaterial 
+        <meshStandardMaterial 
           color="#000000" 
           side={THREE.DoubleSide}
           metalness={0.6}
